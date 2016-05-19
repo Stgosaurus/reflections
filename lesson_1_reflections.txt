@@ -1,0 +1,28 @@
+1. How did viewing a diff between two versions of a file help you see the bug that was introduced?
+
+I looked at the command prompt which listed all the differences. Scrolling down through it, I found that there was a "spacr" typo.
+
+2. How could having easy access to the entire history of a file make you a more efficient programmer in the long term?
+
+You can go back to see where you made mistakes and how your mindset has developed over time. Having backup files and using operations to find the differences can make debugging much easier than having to go through all the code logic by yourself and finding the error.
+
+3. What do you think are the pros and cons of manually choosing when to create a commit, like you do in Git, vs having versions automatically saved, like Google Docs does?
+
+Manually choosing when to commit allows each commit to have meaningful change. It would also greatly decrease the total amount of commits you have.
+However, having to manually commit has the downside of potentially losing work before committing. If you are working on implementing a feature, and then your computer crashes, then you would have to start all over again.
+
+4. Why do you think some version control systems, like Git, allow saving multiple files in one commit, while others, like Google Docs, treat each file separately?
+
+Git is used for code, where many files are often deeply interrelated. Google docs is used mainly for creating separate documents, so a saving multiple files feature would be less useful.
+
+5. How can you use the commands git log and git diff to view the history of files?
+
+Git log can be used to see a history of all the commits made to a file. Using git log, you can identify the commit ids of individual commits. Using the operation "git diff (id1) (id2)", you can find all the differences between 2 versions of the same file.
+
+6. How might using version control make you more confident to make changes that could break something?
+
+Version control ensures that you have backup in case you mess something up really bad. If you break something, you can always revert back to a previous state.
+
+7. Now that you have your workspace set up, what do you want to try using Git for?
+
+I can now use git to save versions of my files so that I can edit them more freely without fearing losing previous progress.
