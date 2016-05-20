@@ -17,3 +17,11 @@ Branches would be helpful when you want to take a different direction to your co
 5. How do the diagrams help you visualize the branch structure?
 
 The diagrams give a visual representation of the branch structure, so it is easy to follow along the arrows to see which commits will be reached through a "git log" call.
+
+6. What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+
+Merging two branches together makes the branch you are merging into have all the changes that the individual branches had. We represent it in the diagram to show that the branches are converging into one branch. 
+
+7. What are the pros and cons of Git's automatic merging vs. always doing merges manually?
+
+Git's automatic merging allows the user to quickly combine two versions of a file into one file with all the edits in it. Manually merging allows the user to be more familiar with the code and chose exactly what to add to the merged file.
